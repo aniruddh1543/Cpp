@@ -1,10 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int sum(int a , int b ){ // fxn declaration
-    int c = a + b; // fxn definition
-    return c;
-}
+int sum(int  , int ); // Function delaration
+    
+
 
 int main()
 {
@@ -16,4 +15,9 @@ int main()
     cout<<"The sum is : "<<sum(num1, num2);
 
     return 0;
+}
+// Fxn Definition
+int sum(int a, int b){
+ int c = a+b;
+    return c;
 }

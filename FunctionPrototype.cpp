@@ -2,16 +2,17 @@
 using namespace std;
 
 // Function prototype
+// type Functn_name(arguments)
     int sum(int a, int b);
 
 
 int main(){
     int num1, num2;
-    cout<<"Enter first number"<<endl;
+    cout<<"Enter first number :"<<endl;
     cin>>num1;
-    cout<<"Enter second number"<<endl;
+    cout<<"Enter second number :"<<endl;
     cin>>num2;
-    cout<<"The sum is "<<sum(num1, num2);
+    cout<<"The sum is : "<<sum(num1, num2);
     return 0;
 }
 /* Here num 1 and num2 are actual parameters 

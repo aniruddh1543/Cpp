@@ -19,6 +19,8 @@ int main(){
 
         union money m1;
         m1.rice = 34;
-        cout<<m1.rice;
+        m1.Car = 'c' ;
+        m1.pounds = 49;
+        cout<<m1.pounds;
         return 0;
 }
